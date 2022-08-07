@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "TimerFont";
+    src: url("TimerFont.ttf")
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: darkslateblue;
+}
+
+h3{
+    margin-bottom: -40px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+.display{
+    font-size: 90px;
+    border: 2px solid black;
+    width: 150px;
+    height: 90px;
+    padding: 10px;
+    color: white;
+    background: black;
+    border-radius: 8px;
+    font-family: TimerFont;
+    margin-bottom: 0px;
+}
+
+.btn {
+    background: inherit;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: TimerFont;
+}
+
+#reset{
+    display: flex;
+    background: inherit;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: TimerFont;
+    margin-left: auto;
+    margin-right: auto;
+}
